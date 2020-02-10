@@ -12,9 +12,9 @@ export class CollectionsHomeComponent implements OnInit {
     { name: 'Elise', age: 25, job: 'Engineer'}
   ];
   headers = [
-    {key: 'name', labeld: 'Name'},
-    {key: 'age', labeld: 'Age'},
-    {key: 'job', labeld: 'Job'}
+    {key: 'name', label: 'Name'},
+    {key: 'age', label: 'Age'},
+    {key: 'job', label: 'Job'}
   ];
   constructor() { }
 
